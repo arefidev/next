@@ -1,5 +1,9 @@
 import React from "react";
 
+export const metadata = {
+  title: "Customers",
+};
+
 export default function Customers() {
-  return <div>cusomers page</div>;
+  return <div>Customers page</div>;
 }
