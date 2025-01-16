@@ -3,6 +3,7 @@ import { HomeIcon, File, UserRound } from "lucide-react";
 import Link from "next/link";
 
 import { NavButton } from "@/components/NavButton";
+import { ModeToggle } from "@/components/MoodToggle";
 
 export function Header() {
   return (
@@ -24,6 +25,7 @@ export function Header() {
         <div className="flx items-center">
           <NavButton href="/tickets" label="Tickets" icon={File} />
           <NavButton href="/customers" label="Customrs" icon={UserRound} />
+          <ModeToggle />
         </div>
       </div>
     </header>
